@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "Victoria Reale"
@@ -20,6 +21,7 @@ website:
 
 format:
   html:
+    link-external-newwindow: true
     theme:
       - cosmo
     css: styles.css
