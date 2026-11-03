@@ -1,24 +1,10 @@
 [
   {
-    "objectID": "writing.html",
-    "href": "writing.html",
-    "title": "Writing",
-    "section": "",
-    "text": "Here are my classes."
-  },
-  {
-    "objectID": "writing.html#classes",
-    "href": "writing.html#classes",
-    "title": "Writing",
-    "section": "",
-    "text": "Here are my classes."
-  },
-  {
     "objectID": "writing.html#class-1",
     "href": "writing.html#class-1",
     "title": "Writing",
     "section": "Class 1",
-    "text": "Class 1\n\n\n\nResume Example Pdf"
+    "text": "Class 1"
   },
   {
     "objectID": "index.html",
@@ -61,12 +47,5 @@
     "title": "About Me",
     "section": "Law Experience",
     "text": "Law Experience\n[Insert law experience]"
-  },
-  {
-    "objectID": "about.html#resume",
-    "href": "about.html#resume",
-    "title": "About Me",
-    "section": "Resume",
-    "text": "Resume\nDownload"
   }
 ]

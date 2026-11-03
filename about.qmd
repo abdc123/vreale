@@ -14,8 +14,3 @@ about:
 
 [Insert law experience]
 
-## Resume
-
-[Download](files/resume.pdf){.btn .btn-primary download="Resume.pdf"}
-
-![](files/resume.pdf){width=300% height=800px}
