@@ -5,15 +5,15 @@ project:
 website:
   title: "Victoria Reale"
   navbar:
-    contents:
+    left:
       - href: index.qmd
         text: Home
         icon: house
       - href: about.qmd
-        text: About
+        text: About Me
         icon: person
-      - href: resume.qmd
-        text: Resume
+      - href: writing.qmd
+        text: Writing
         icon: newspaper
   
   page-footer: 
@@ -21,9 +21,9 @@ website:
 
 format:
   html:
-    link-external-newwindow: true
     theme:
       - cosmo
     css: styles.css
     toc: true
+    link-external-newwindow: true
 

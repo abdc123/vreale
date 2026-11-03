@@ -1,24 +1,24 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
+    "objectID": "writing.html",
+    "href": "writing.html",
+    "title": "Writing",
     "section": "",
-    "text": "Download Resume"
+    "text": "Here are my classes."
   },
   {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About Me",
-    "section": "Education",
-    "text": "Education\n[Insert education paragraph]"
+    "objectID": "writing.html#classes",
+    "href": "writing.html#classes",
+    "title": "Writing",
+    "section": "",
+    "text": "Here are my classes."
   },
   {
-    "objectID": "about.html#law-experience",
-    "href": "about.html#law-experience",
-    "title": "About Me",
-    "section": "Law Experience",
-    "text": "Law Experience\n[Insert law experience]"
+    "objectID": "writing.html#class-1",
+    "href": "writing.html#class-1",
+    "title": "Writing",
+    "section": "Class 1",
+    "text": "Class 1\n\n\n\nResume Example Pdf"
   },
   {
     "objectID": "index.html",
@@ -40,5 +40,33 @@
     "title": "Victoria Reale",
     "section": "About Me",
     "text": "About Me\nI am currently pursuing a degree in English, where I explore the relationship between literature, language, and the human experience.\nThrough my academic and professional experiences, I hope to develop the analytical and communication skills necessary for a future career in law.\nRead My Story →"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "[Insert education paragraph]"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "",
+    "text": "[Insert education paragraph]"
+  },
+  {
+    "objectID": "about.html#law-experience",
+    "href": "about.html#law-experience",
+    "title": "About Me",
+    "section": "Law Experience",
+    "text": "Law Experience\n[Insert law experience]"
+  },
+  {
+    "objectID": "about.html#resume",
+    "href": "about.html#resume",
+    "title": "About Me",
+    "section": "Resume",
+    "text": "Resume\nDownload"
   }
 ]

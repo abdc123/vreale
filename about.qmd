@@ -3,9 +3,8 @@ title: "About Me "
 about:
     template: solana
     image: images/profile.png
+    image-shape: round
 ---
-
-[Download Resume](files/resume.pdf){.btn .btn-primary download="Resume.pdf"}
 
 ## Education
 
@@ -14,3 +13,9 @@ about:
 ## Law Experience
 
 [Insert law experience]
+
+## Resume
+
+[Download](files/resume.pdf){.btn .btn-primary download="Resume.pdf"}
+
+![](files/resume.pdf){width=300% height=800px}
