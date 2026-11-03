@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About Me",
     "section": "",
-    "text": "Resume"
+    "text": "Download Resume"
   },
   {
     "objectID": "about.html#education",
@@ -19,20 +19,6 @@
     "title": "About Me",
     "section": "Law Experience",
     "text": "Law Experience\n[Insert law experience]"
-  },
-  {
-    "objectID": "resume.html",
-    "href": "resume.html",
-    "title": "Resume",
-    "section": "",
-    "text": "Download Resume"
-  },
-  {
-    "objectID": "resume.html#section",
-    "href": "resume.html#section",
-    "title": "Resume",
-    "section": "",
-    "text": "Download Resume"
   },
   {
     "objectID": "index.html",
