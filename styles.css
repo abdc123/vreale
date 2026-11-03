@@ -1,0 +1,540 @@
+
+/* ==========================================
+   ACADEMIC PORTFOLIO — CUSTOM QUARTO THEME
+   ========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+:root {
+  --ivory: #F8F6F1;
+  --white: #FFFFFF;
+  --navy: #263448;
+  --navy-light: #43536A;
+  --gold: #A1845B;
+  --gold-light: #E8DFD1;
+  --muted: #69717B;
+  --border: #DDD8CF;
+
+  --serif: 'Libre Baskerville', Georgia, serif;
+  --sans: 'DM Sans', Arial, sans-serif;
+
+  --content-width: 1080px;
+}
+
+/* GENERAL */
+
+body {
+  background-color: var(--ivory);
+  color: var(--navy);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.85;
+  -webkit-font-smoothing: antialiased;
+}
+
+#quarto-content {
+  min-height: 75vh;
+}
+
+main.content {
+  max-width: var(--content-width);
+  margin: 0 auto;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+::selection {
+  background: var(--gold-light);
+  color: var(--navy);
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--serif);
+  color: var(--navy);
+  font-weight: 400;
+  line-height: 1.35;
+}
+
+h1 {
+  font-size: clamp(2.6rem, 5vw, 4.3rem);
+  letter-spacing: -0.045em;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  letter-spacing: -0.025em;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.35rem;
+  margin-top: 2rem;
+}
+
+.subtitle,
+.lead {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--navy-light);
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+/* LINKS */
+
+a {
+  color: var(--navy);
+  text-decoration-color: var(--gold);
+  text-underline-offset: 4px;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--gold);
+}
+
+/* NAVIGATION */
+
+.navbar {
+  background: var(--ivory) !important;
+  border-bottom: 1px solid var(--border);
+  padding: 1.15rem 0;
+  box-shadow: none;
+}
+
+.navbar-brand {
+  font-family: var(--serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--navy) !important;
+}
+
+.navbar-nav .nav-link {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: var(--navy) !important;
+  margin-left: 1.2rem;
+  transition: color 0.2s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--gold) !important;
+}
+
+.navbar-toggler {
+  border-color: var(--border);
+}
+
+/* PAGE TITLES */
+
+.quarto-title-block {
+  margin-bottom: 3.5rem;
+}
+
+.quarto-title .title {
+  font-family: var(--serif);
+  color: var(--navy);
+}
+
+.quarto-title .subtitle {
+  color: var(--muted);
+}
+
+/* HOMEPAGE HERO */
+
+.hero {
+  padding: 5rem 0 6rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero-eyebrow {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--gold);
+  margin-bottom: 1.8rem;
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 7vw, 6rem);
+  letter-spacing: -0.055em;
+  margin-bottom: 1.5rem;
+}
+
+.hero-tagline {
+  font-family: var(--serif);
+  font-size: clamp(1.2rem, 2.5vw, 1.7rem);
+  font-style: italic;
+  color: var(--navy-light);
+  margin-bottom: 2rem;
+}
+
+.hero-description {
+  max-width: 620px;
+  font-size: 1.05rem;
+  color: var(--muted);
+  line-height: 1.9;
+}
+
+/* SECTION LABELS */
+
+.section-label {
+  font-family: var(--sans);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+/* BUTTONS */
+
+.btn-primary,
+.btn-outline-primary {
+  display: inline-block;
+  border-radius: 2px;
+  padding: 0.85rem 1.6rem;
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  text-decoration: none;
+  transition: all 0.25s ease;
+}
+
+.btn-primary {
+  background-color: var(--navy);
+  border: 1px solid var(--navy);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--gold);
+  border-color: var(--gold);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+  background: transparent;
+  color: var(--navy);
+  border: 1px solid var(--navy);
+}
+
+.btn-outline-primary:hover {
+  background: var(--navy);
+  color: white;
+}
+
+/* WRITING / PROJECT CARDS */
+
+.quarto-grid-item,
+.project-card,
+.writing-card {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  box-shadow: none;
+  overflow: hidden;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
+}
+
+.quarto-grid-item:hover,
+.project-card:hover,
+.writing-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--gold-light);
+  box-shadow: 0 10px 30px rgba(38, 52, 72, 0.07);
+}
+
+.quarto-grid-item .card-title,
+.project-card h3,
+.writing-card h3 {
+  font-family: var(--serif);
+  color: var(--navy);
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.quarto-grid-item .card-text,
+.project-card p,
+.writing-card p {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.quarto-grid-item .card-body,
+.project-card,
+.writing-card {
+  padding: 1.5rem;
+}
+
+/* LISTINGS */
+
+.quarto-listing .listing-title {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+}
+
+.quarto-listing .listing-description {
+  color: var(--muted);
+}
+
+.quarto-listing .listing-date {
+  color: var(--gold);
+  font-size: 0.8rem;
+}
+
+.quarto-category {
+  border: 1px solid var(--gold-light) !important;
+  color: var(--gold) !important;
+  background: transparent;
+  border-radius: 2px !important;
+  font-size: 0.75rem;
+}
+
+/* BLOCKQUOTES */
+
+blockquote,
+.blockquote {
+  border-left: 2px solid var(--gold);
+  padding: 1rem 1.75rem;
+  margin: 2.5rem 0;
+  background: rgba(232, 223, 209, 0.2);
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--navy-light);
+}
+
+/* IMAGES */
+
+main img {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-photo {
+  width: 100%;
+  max-width: 340px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 2px;
+  filter: saturate(0.8);
+}
+
+/* RESUME / EXPERIENCE */
+
+.experience-item {
+  border-bottom: 1px solid var(--border);
+  padding: 1.5rem 0;
+}
+
+.experience-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.experience-date {
+  color: var(--gold);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* TABLES */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  color: var(--navy);
+  border-bottom: 2px solid var(--gold);
+}
+
+td {
+  border-bottom: 1px solid var(--border);
+}
+
+/* HORIZONTAL RULE */
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+  opacity: 1;
+  margin: 3rem 0;
+}
+
+/* FOOTER */
+
+.nav-footer {
+  background: var(--ivory);
+  border-top: 1px solid var(--border);
+  padding: 2rem 0;
+  color: var(--muted);
+  font-size: 0.8rem;
+}
+
+.nav-footer a {
+  color: var(--navy);
+  text-decoration: none;
+}
+
+.nav-footer a:hover {
+  color: var(--gold);
+}
+
+/* ACCESSIBILITY */
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px) {
+  main.content {
+    padding: 2rem 1rem 4rem;
+  }
+
+  .hero {
+    padding: 3rem 0 4rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.8rem, 10vw, 4rem);
+  }
+
+  .navbar-nav .nav-link {
+    margin-left: 0;
+    padding: 0.7rem 0;
+  }
+
+  h2 {
+    margin-top: 2.5rem;
+  }
+
+  .quarto-title-block {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* ==========================================
+   SUBTLE PURPLE ACCENTS
+   ========================================== */
+
+:root {
+  --plum: #705477;
+  --plum-dark: #563D60;
+  --lavender: #EDE6F0;
+  --lavender-light: #F5F0F6;
+}
+
+/* Navigation accents */
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: var(--plum) !important;
+}
+
+/* Homepage eyebrow and section labels */
+
+.hero-eyebrow,
+.section-label {
+  color: var(--plum);
+}
+
+/* Subtle purple link interactions */
+
+a:hover {
+  color: var(--plum);
+}
+
+/* Purple underline on selected links */
+
+main.content a:not(.btn) {
+  text-decoration-color: var(--plum);
+}
+
+/* Writing cards */
+
+.quarto-grid-item:hover,
+.project-card:hover,
+.writing-card:hover {
+  border-color: #C9B8CF;
+  box-shadow: 0 10px 30px rgba(112, 84, 119, 0.08);
+}
+
+/* Literary blockquotes */
+
+blockquote,
+.blockquote {
+  border-left-color: var(--plum);
+  background: var(--lavender-light);
+}
+
+/* Buttons */
+
+.btn-primary:hover {
+  background-color: var(--plum);
+  border-color: var(--plum);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--plum);
+  border-color: var(--plum);
+}
+
+/* Writing categories */
+
+.quarto-category {
+  border-color: #D9C9DF !important;
+  color: var(--plum) !important;
+  background: var(--lavender-light);
+}
+
+/* Subtle selection highlight */
+
+::selection {
+  background: var(--lavender);
+  color: var(--navy);
+}
+
+/* Keyboard focus */
+
+a:focus-visible,
+button:focus-visible,
+.btn:focus-visible {
+  outline-color: var(--plum);
+}

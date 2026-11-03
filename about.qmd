@@ -1,0 +1,16 @@
+---
+title: "About Me "
+about:
+    template: solana
+    image: images/profile.png
+---
+
+[Download Resume](files/resume.pdf){.btn .btn-primary download="Resume.pdf"}
+
+## Education
+
+[Insert education paragraph]
+
+## Law Experience
+
+[Insert law experience]

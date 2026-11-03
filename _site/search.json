@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Resume"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "Education",
+    "text": "Education\n[Insert education paragraph]"
+  },
+  {
+    "objectID": "about.html#law-experience",
+    "href": "about.html#law-experience",
+    "title": "About Me",
+    "section": "Law Experience",
+    "text": "Law Experience\n[Insert law experience]"
+  },
+  {
+    "objectID": "resume.html",
+    "href": "resume.html",
+    "title": "Resume",
+    "section": "",
+    "text": "Download Resume"
+  },
+  {
+    "objectID": "resume.html#section",
+    "href": "resume.html#section",
+    "title": "Resume",
+    "section": "",
+    "text": "Download Resume"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Victoria Reale",
+    "section": "",
+    "text": "ENGLISH STUDENT · ASPIRING LEGAL PROFESSIONAL\n\n\nLanguage. Literature. Law.\n\n\nI am an undergraduate English student with a passion for literature, critical analysis, and the role of language in shaping society.\nMy academic interests lie at the intersection of writing, history, and the law.\n\nExplore My Writing\nLearn More About Me"
+  },
+  {
+    "objectID": "index.html#selected-writing",
+    "href": "index.html#selected-writing",
+    "title": "Victoria Reale",
+    "section": "Selected Writing",
+    "text": "Selected Writing\n\nACADEMIC WORK & PUBLICATIONS\n\nA selection of my essays, literary analyses, and independent writing projects.\nView All Writing →"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Victoria Reale",
+    "section": "About Me",
+    "text": "About Me\nI am currently pursuing a degree in English, where I explore the relationship between literature, language, and the human experience.\nThrough my academic and professional experiences, I hope to develop the analytical and communication skills necessary for a future career in law.\nRead My Story →"
+  }
+]

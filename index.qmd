@@ -1,0 +1,53 @@
+---
+title: "Victoria Reale"
+---
+
+::: {.hero}
+
+::: {.hero-eyebrow}
+ENGLISH STUDENT · ASPIRING LEGAL PROFESSIONAL
+:::
+
+::: {.hero-tagline}
+Language. Literature. Law.
+:::
+
+::: {.hero-description}
+I am an undergraduate English student with a passion
+for literature, critical analysis, and the role of
+language in shaping society.
+
+My academic interests lie at the intersection of
+writing, history, and the law.
+:::
+
+[Explore My Writing](writing.qmd){.btn .btn-primary}
+
+[Learn More About Me](about.qmd){.btn .btn-outline-primary}
+:::
+
+
+## Selected Writing
+
+::: {.section-label}
+ACADEMIC WORK & PUBLICATIONS
+:::
+
+A selection of my essays, literary analyses, and
+independent writing projects.
+
+[View All Writing →](writing.qmd)
+
+---
+
+## About Me
+
+I am currently pursuing a degree in English, where
+I explore the relationship between literature,
+language, and the human experience.
+
+Through my academic and professional experiences,
+I hope to develop the analytical and communication
+skills necessary for a future career in law.
+
+[Read My Story →](about.qmd)
